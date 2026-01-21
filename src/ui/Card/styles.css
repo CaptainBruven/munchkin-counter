@@ -1,0 +1,15 @@
+.mc-card {
+    background-color: var(--background-2);
+    border-radius: 1rem;
+    padding: 1rem;
+
+    & .mc-card-title {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    & .mc-card-content {
+        display: flex;
+        flex-direction: column;
+    }
+}

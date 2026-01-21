@@ -1,0 +1,27 @@
+.hero-card {
+    background: var(--background-3);
+    padding: 1rem;
+    border-radius: 1rem;
+    border-left: 5px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+
+    & .hero-sex {
+        width: 2rem;
+        height: 2rem;
+        background: white;
+    }
+
+    & .hero-name {
+        flex: 1;
+    }
+
+    & .hero-delete {
+        cursor: pointer;
+        width: 2rem;
+        height: 2rem;
+        background: red;
+    }
+}

@@ -1,0 +1,12 @@
+.add-button {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    & .add-button-icon {
+        width: 2rem;
+        height: 2rem;
+        background: white;
+    }
+}

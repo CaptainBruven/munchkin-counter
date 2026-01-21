@@ -1,0 +1,18 @@
+.heroes {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+
+    & .heroes-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & .heroes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+    }
+}

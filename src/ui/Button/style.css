@@ -1,0 +1,27 @@
+.mc-button {
+    background-color: var(--background-6);
+    color: var(--text-1);
+    font-size: var(--font-size);
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.1s ease-in-out;
+    font-weight: bold;
+
+    &.small {
+        height: 3rem;
+    }
+
+    &.large {
+        height: 4rem;
+    }
+
+    &:hover {
+        background-color: var(--background-7);
+    }
+
+    &:active {
+        background-color: var(--background-8);
+    }
+}
