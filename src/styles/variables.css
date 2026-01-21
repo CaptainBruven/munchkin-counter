@@ -1,0 +1,38 @@
+:root {
+    --background-1: #181926;
+    --background-2: #1e2030;
+    --background-3: #24273a;
+
+    --background-4: #363a4f;
+    --background-5: #494d64;
+    --background-6: #5b6078;
+
+    --background-7: #6e738d;
+    --background-8: #8087a2;
+    --background-9: #939ab7;
+
+    --text-1: #cad3f5;
+    --text-3: #b8c0e0;
+    --text-2: #a5adcb;
+
+    --lavender: #b7bdf8;
+    --blue: #8aadf4;
+    --sapphire: #7dc4e4;
+    --sky: #91d7e3;
+    --teal: #8bd5ca;
+    --green: #a6da95;
+    --yellow: #eed49f;
+    --peach: #f5a97f;
+    --maroon: #ee99a0;
+    --red: #ed8796;
+    --mauve: #c6a0f6;
+    --pink: #f5bde6;
+    --flamingo: #f0c6c6;
+    --rosewater: #f4dbd6;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-1);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
