@@ -1,0 +1,18 @@
+.text-input {
+    border: 2px solid var(--background-4);
+    border-radius: 1rem;
+    height: 2rem;
+    background: var(--background-2);
+    color: var(--text);
+    font-weight: bold;
+    padding: 0 1rem;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: var(--text-2);
+        opacity: 0.5;
+    }
+}

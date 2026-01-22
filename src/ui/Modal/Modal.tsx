@@ -13,13 +13,9 @@ interface Props extends ParentProps {
 const Modal = (props: Props) => {
     const [visible, setVisible] = createSignal(false);
     const [animating, setAnimating] = createSignal(false);
-    const [transformOrigin, setTransformOrigin] = createSignal('center center');
 
     createEffect(() => {
         if (props.open) {
-            const mouseX = window.__modalClickX ?? window.innerWidth / 2;
-            const mouseY = window.__modalClickY ?? window.innerHeight / 2;
-            setTransformOrigin(`${mouseX}px ${mouseY}px`);
             setVisible(true);
             setAnimating(true);
             requestAnimationFrame(() => {
@@ -50,7 +46,6 @@ const Modal = (props: Props) => {
                 />
                 <div
                     class={`modal-wrapper ${props.open && !animating() ? 'modal-open' : 'modal-closed'}`}
-                    style={{ "transform-origin": transformOrigin() }}
                 >
                     <div class="modal-content" onClick={(e) => e.stopPropagation()}>
                         <Show when={props.title}>
@@ -71,11 +66,6 @@ const Modal = (props: Props) => {
             </Portal>
         </Show>
     );
-};
-
-export const captureModalClick = (e: MouseEvent) => {
-    (window as any).__modalClickX = e.clientX;
-    (window as any).__modalClickY = e.clientY;
 };
 
 declare global {

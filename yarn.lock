@@ -290,6 +290,39 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz#9e585ab6086bef994c6e8a5b3a0481219ada862b"
   integrity sha512-sRdU18mcKf7F+YgheI/zGf5alZatMUTKj/jNS6l744f9u3WFu4v7twcUI9vu4mknF4Y9aDlblIie0IM+5xxaqQ==
 
+"@fortawesome/fontawesome-common-types@7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-7.1.0.tgz#a4e0b7e40073d5fdef41182da1bc216a05875659"
+  integrity sha512-l/BQM7fYntsCI//du+6sEnHOP6a74UixFyOYUyz2DLMXKx+6DEhfR3F2NYGE45XH1JJuIamacb4IZs9S0ZOWLA==
+
+"@fortawesome/fontawesome-svg-core@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-7.1.0.tgz#b0a45363a4e95ec985130393c0b1b95717ef0760"
+  integrity sha512-fNxRUk1KhjSbnbuBxlWSnBLKLBNun52ZBTcs22H/xEEzM6Ap81ZFTQ4bZBxVQGQgVY0xugKGoRcCbaKjLQ3XZA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "7.1.0"
+
+"@fortawesome/pro-duotone-svg-icons@^7.1.0":
+  version "7.1.0"
+  resolved "https://npm.fontawesome.com/@fortawesome/pro-duotone-svg-icons/-/pro-duotone-svg-icons-7.1.0.tgz#a80b4fadaa5ef66257a07eef64163023f65a862a"
+  integrity sha512-b1EnUNQRoAiU+R+7BGc1G/GLacsrMsoDZgZ0+HcGYA9sMJ/JqmYCTcV8zLCPcRkOnj4h9e5dPRpIlzVmVNHOiw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "7.1.0"
+
+"@fortawesome/pro-regular-svg-icons@^7.1.0":
+  version "7.1.0"
+  resolved "https://npm.fontawesome.com/@fortawesome/pro-regular-svg-icons/-/pro-regular-svg-icons-7.1.0.tgz#d4766b3fe426232b4e81bb16c9463f15ea9d78e9"
+  integrity sha512-+yMCXJC7PhGsZPrGB7WA+wx+weEgCOdsMVezY8cU1hpoepvnrDemzsnqeFZnq6PY1bRuW1jooVcJX+KfkU68LA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "7.1.0"
+
+"@fortawesome/pro-thin-svg-icons@^7.1.0":
+  version "7.1.0"
+  resolved "https://npm.fontawesome.com/@fortawesome/pro-thin-svg-icons/-/pro-thin-svg-icons-7.1.0.tgz#9de340cd10c182626c20bc18a1f6a536263a3e9b"
+  integrity sha512-MYjCK5oAYswf71tbI2NrXVyylm3ERUC/HpgL1J/04QZfP3irxLG2rLDgUIPYX3Oxf1EPzx8WkdnT9B60JbveCw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "7.1.0"
+
 "@jridgewell/gen-mapping@^0.3.12", "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.13"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz#6342a19f44347518c93e43b1ac69deb3c4656a1f"

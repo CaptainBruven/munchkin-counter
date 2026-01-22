@@ -11,7 +11,14 @@
     & .hero-sex {
         width: 2rem;
         height: 2rem;
-        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & svg {
+            width: 1.5rem !important;
+            height: 1.5rem !important;
+        }
     }
 
     & .hero-name {
@@ -22,6 +29,13 @@
         cursor: pointer;
         width: 2rem;
         height: 2rem;
-        background: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & svg {
+            width: 1.5rem !important;
+            height: 1.5rem !important;
+        }
     }
 }

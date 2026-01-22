@@ -30,16 +30,24 @@ const TeamCreation = () => {
         }
     }
 
+    const handleDeleteHero = (hero: Hero) => {
+        heroes.removeHero(hero.id)
+    }
+
     return (
         <div class="heroes">
             <Card title="Your heroes">
                 <div class="heroes-content">
                     <div class="heroes-list">
                         {heroes.heroes().map((hero) => (
-                            <HeroCard hero={hero} onClick={() => {
-                                setSelectedHero(hero)
-                                setHeroModalOpen(true)
-                            }} />
+                            <HeroCard
+                                hero={hero}
+                                onClick={() => {
+                                    setSelectedHero(hero)
+                                    setHeroModalOpen(true)
+                                }}
+                                onDelete={() => handleDeleteHero(hero)}
+                            />
                         ))}
                     </div>
                     <AddButton title="Add a hero" onClick={() => setHeroModalOpen(true)} />

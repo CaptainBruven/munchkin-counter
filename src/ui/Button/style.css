@@ -1,5 +1,4 @@
 .mc-button {
-    background-color: var(--background-6);
     color: var(--text-1);
     font-size: var(--font-size);
     border-radius: 1rem;
@@ -9,19 +8,42 @@
     transition: background-color 0.1s ease-in-out;
     font-weight: bold;
 
+    &.primary {
+        background-color: var(--background-6);
+
+
+        &:hover {
+            background-color: var(--background-7);
+        }
+
+        &:active {
+            background-color: var(--background-8);
+        }
+    }
+
+    &.outline {
+        background-color: transparent;
+        border: 2px solid var(--background-6);
+        padding: calc(1rem - 2px);
+
+        &:hover {
+            border-color: var(--background-7);
+        }
+
+        &:active {
+            border-color: var(--background-8);
+        }
+    }
+
+    &.danger {
+        background-color: var(--red);
+    }
+
     &.small {
         height: 3rem;
     }
 
     &.large {
         height: 4rem;
-    }
-
-    &:hover {
-        background-color: var(--background-7);
-    }
-
-    &:active {
-        background-color: var(--background-8);
     }
 }

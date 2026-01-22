@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/pro-duotone-svg-icons": "^7.1.0",
+    "@fortawesome/pro-regular-svg-icons": "^7.1.0",
+    "@fortawesome/pro-thin-svg-icons": "^7.1.0",
     "@solidjs/router": "^0.15.4",
     "solid-js": "^1.9.10"
   },
